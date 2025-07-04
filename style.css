@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(235, 203, 143);
+    color: wheat;
     font-size: 1.04rem;
 }
 
@@ -82,7 +82,7 @@ main hr {
 .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
+    height: 100vh;
 }
 
 .secondSection h1 {
@@ -129,4 +129,71 @@ main hr {
     top: 65px;
     width: 9rem;
     color: gray;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #101828;
+}
+
+.about {
+    position: relative;
+    top: 56px;
+}
+
+.about ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+}
+
+.about ul li{
+    list-style: none;
+}
+
+.about ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.about ul li a:hover{
+    color: wheat;
+    font-size: 21px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-basis: 100%;
+}
+
+.fb-logo {
+    width: 2.5rem;
+}
+
+.ig-logo {
+    width: 1.8rem;
+}
+
+.x-logo {
+    width: 1.8rem;
+}
+
+.git-logo {
+    width: 3rem;
+}
+
+.copywrite {
+    color: gray;
+    position: relative;
+    top: -65px;
 }
