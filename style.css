@@ -161,7 +161,6 @@ main hr {
 
 .box {
     position: relative;
-    margin: 50px 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
