@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Umair's Portfolio</title>
+  <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="left">Umair's Portfolio</div>
+
+      <!-- Hamburger Menu Button -->
+      <div class="hamburger" id="hamburger">&#9776;</div>
+
+      <div class="right" id="menu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <h2 class="projects-heading">Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="https://justaddbuoy.com/" target="_blank">
+          <img src="images/justaddbuoy.com_ (2).png" alt="Just Add Buoy">
+          <h3>JustAddBuoy</h3>
+          <p>E-commerce site for wellness drops, built with clean UI and strong accessibility.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="https://mamatcha.ca/" target="_blank">
+          <img src="images/mamatcha.ca_.png" alt="Mamatcha">
+          <h3>Mamatcha</h3>
+          <p>Brand-driven organic matcha store — immersive design and storytelling.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="https://recleague.co/" target="_blank">
+          <img src="images/recleague.co_.png" alt="Rec League">
+          <h3>RecLeague</h3>
+          <p>Custom merch storefront — clean catalog layout and branding consistency.</p>
+        </a>
+      </div>
+      <div class="project-card">
+        <a href="https://dentomatcha.com/" target="_blank">
+          <img src="images/dento-matcha.png" alt="Dento Matcha">
+          <h3>Dento Matcha</h3>
+          <p>Premium matcha tea store — custom Shopify design.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="about">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+      </ul>
+    </div>
+    <div class="logos">
+      <a href="/"><img class="fb-logo" src="images/pngwing.com (3).png" /></a>
+      <a href="/"><img class="ig-logo" src="images/pngwing.com (4).png" /></a>
+      <a href="/"><img class="x-logo" src="images/pngwing.com (1).png" /></a>
+      <a href="/"><img class="git-logo" src="images/pngwing.com (2).png" /></a>
+    </div>
+    <div class="copywrite">
+      <p>© 2024 Umair's Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+  </script>
+</body>
+
+</html>
